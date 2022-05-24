@@ -29,7 +29,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href="https://www.linkedin.com/in/lalitghimire/"
             >
               {btn || `Linkdedin`}
             </a>{' '}
@@ -37,7 +37,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
+              href="https://github.com/lalitghimire"
             >
               {btn || `Github`}
             </a>

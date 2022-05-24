@@ -18,40 +18,51 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'lalit.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne:
+    'An aspiring full stack developer based in Helsinki, Finland. I have been learning and practising modern web development technologies. The tools and technolgies, I am focused are listed below  ',
+  paragraphTwo: 'Frontend - React, Redux',
+  paragraphThree: 'Backend - Node, Express, MongoDB, MySql, REST',
+  paragraphFour: 'Cloud/DevOps - Docker, Git, Python/Bash Scripting, AWS ',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'mycontacts.jpg',
+    title: 'My contacts',
+    info: ' A fullstack application where a user can add, update and delete contact information like name, email, phone number, address and an image. The information is stored in database. User can search by name among contacts.',
+    info2: 'React, Redux-tookit,  Node,  Express, MongoDB ',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/lalitghimire/contacts-directory', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'githubproj.png',
+    title: 'Github repositories list',
+    info: ' A react app to display all the public Github repositories and their link of a given username.',
+    info2: 'React, Github API',
+    url: 'https://githubuser-repo.herokuapp.com/',
+    repo: 'https://github.com/lalitghimire/githubUserSearch', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'dbroker.png',
+    title: 'Assignment from Dream Broker',
+    info: 'My implementation for the task assignment from the Dream Broker Oy website',
+    info2: 'Nodejs, Express, REST',
+    url: 'https://dbrcodetask.herokuapp.com/',
+    repo: 'https://github.com/lalitghimire/dreamBrokerAssignment', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'iotproj1.png',
+    title: 'Weather station with ESP32 IoT board',
+    info: 'A project with esp32 development board which is programmed with micropython to send measured data from the sensors connected to a cloud platform. The cloud platform, asksensors.com allows different visualization of the data. The program is also able to get data from openweather API, parse it and sends it to cloud platform for visualization',
+    info2: 'MicroPython, Sensors, IoT, API ',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/lalitghimire/Esp32_Iot_project', // if no repo, the button will not show up
   },
 ];
 
